@@ -1,3 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>🎉 Event Handling Playground</h1></header>
+
+  <!-- Button Interaction -->
+  <section>
+    <button id="magicButton">Click Me!</button>
+    <p id="buttonText">Waiting for a click...</p>
+  </section>
+
+  <!-- Hover Image -->
+  <section>
+    <img id="hoverImage" src="https://via.placeholder.com/200" alt="Hover Me" />
+    <p>Hover over the image!</p>
+  </section>
+
+  <!-- Keypress Area -->
+  <section>
+    <input type="text" id="keypressInput" placeholder="Type something..." />
+    <p id="keypressResult"></p>
+  </section>
+
+  <!-- Secret Double-Click -->
+  <section>
+    <div id="secretBox">🤫 Double-click me for a surprise!</div>
+    <p id="secretMsg"></p>
+  </section>
+
+  <!-- Accordion -->
+  <section>
+    <h2>Accordion Section</h2>
+    <button class="accordion">Toggle Content</button>
+    <div class="panel">This is hidden content revealed by clicking above.</div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <form id="signupForm">
+      <h2>Sign Up</h2>
+      <label>Email: <input type="email" id="email" required /></label><br />
+      <label>Password: <input type="password" id="password" required /></label><br />
+      <button type="submit">Submit</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 # 🎯 JavaScript Event Handling & Interactive Elements Assignment
 
 Welcome to the **ultimate JavaScript playground**! 🎉 This assignment is where we turn boring web pages into dynamic, responsive, *alive* experiences. Get ready to master **event handling**, build **interactive components**, and validate forms like a pro! 💪
